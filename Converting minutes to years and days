@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class code 1
+{
+    public static void main(String[] args)
+    {
+        int m, year,day;
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the number of days:");
+        m = s.nextInt();
+        year = m / 365;
+        m = m % 365;
+        System.out.println("No. of years:"+year);
+        day = m;
+        System.out.println("No. of days:"+day);
+    }
+}
